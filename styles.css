@@ -134,6 +134,27 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%; /* Ensure sections fit the screen width */
 }
+#notes-youtube-link{
+    font-size: 25px;
+    text-align: center;
+    color: red;
+}
+#notes-youtube-link-here{
+    width: 100%;         /* Set the width of the div */
+    padding: 17px;        /* Add some padding inside the div */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px;  /* Rounded corners for a smoother look */
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+                inset -5px -5px 10px rgba(255, 255, 255, 0.8); 
+    /* Inset shadow to create the "pressed" effect */
+
+}
+#notes-youtube-link-here-a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
 
 /* h4, h5, p {
     width: 100%; /* Ensure all headings and paragraphs fit the screen width 
