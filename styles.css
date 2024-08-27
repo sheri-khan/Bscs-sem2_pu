@@ -24,13 +24,17 @@ header {
     width: 100%; /* Ensure the header fits the screen width */
 }
 .header-h1{
-    font-size: 30px;    
+    font-size: 30px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .top-nav {
     display: flex;
     justify-content: center;
     /* flex-direction: column;  it define that all the elements are placed in a coulmn from top to bottom */
     flex-wrap: wrap;
+    
     width: 100%; /* Ensure the navigation bar fits the screen width */
 }
 
@@ -39,6 +43,8 @@ header {
     text-decoration: none;
     margin: 0 10px;
     padding: 10px;
+    
+    
 }
 
 .top-nav a:hover {
