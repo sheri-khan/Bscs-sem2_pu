@@ -28,7 +28,8 @@ header {
 .header-h1{
     font-size: 30px;
     /* background-color: black; */
-    padding-top: 5px;
+    margin-top: 40px;
+    padding-top: 20px;
     padding-bottom: 5px;
 }
 .top-nav {
@@ -411,3 +412,74 @@ footer {
         font-size: 14px;
     }
 }
+#updates-button {
+    position: fixed;
+    top: 20px; /* Position at the top */
+    left: 20px; /* Position at the left */
+    width: auto; /* Adjust width if needed */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 1001; /* Ensure it stays on top of other content */
+}
+
+/* Hover effect */
+#updates-button:hover {
+    background-color: #0056b3;
+}
+
+/* Updates Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1002; /* Ensure it stays on top of the website content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with higher opacity for better readability */
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1003; /* Ensure the modal content is above the overlay */
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    #updates-button {
+        top: 10px; /* Reduce top spacing on mobile */
+        left: 10px; /* Reduce left spacing on mobile */
+        padding: 8px 15px; /* Smaller padding */
+        font-size: 14px; /* Smaller font size */
+        border-radius: 40px; /* Smaller border radius */
+    }
+}
+
