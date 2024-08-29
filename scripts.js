@@ -1,10 +1,10 @@
-// Import the Supabase JavaScript client
-import { createClient } from '@supabase/supabase-js';
-
-// Create a Supabase client instance
+// Import the Supabase JavaScript client from CDN
 const supabaseUrl = 'https://jbtnkaqzfknnyczrldtd.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpidG5rYXF6ZmtubnljenJsZHRkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQ5MzA0NzAsImV4cCI6MjA0MDUwNjQ3MH0.A-emTwQ5qWSZyjYcGXi2aZxMOlAp1rYVPmAD6UrNogY';
-const supabase = createClient('https://jbtnkaqzfknnyczrldtd.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpidG5rYXF6ZmtubnljenJsZHRkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQ5MzA0NzAsImV4cCI6MjA0MDUwNjQ3MH0.A-emTwQ5qWSZyjYcGXi2aZxMOlAp1rYVPmAD6UrNogY');
+
+// Create a Supabase client instance
+const { createClient } = window.supabase;
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Contact Us form submission handler
 document.getElementById('contact-form').addEventListener('submit', async (e) => {
