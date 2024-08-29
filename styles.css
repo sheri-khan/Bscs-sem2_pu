@@ -59,7 +59,7 @@ header {
 .top-nav a:hover {
     transition: 0.5s;
     background-color: rgb(75, 165, 195);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* past paper nav  */
 #past-paper-nav{
@@ -118,7 +118,7 @@ header {
     transition: 0.5s;
     /* background-color: rgb(75, 165, 195); */
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 10px;
     color: black;
 }
 
@@ -238,14 +238,14 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
+                /* footer styling */
 footer {
     /* background-color: #343a40; */
     
     opacity: 0.90;
     color: #ffffff;
     text-align: center;
-    padding: 1px;
+    /* padding: 1px; */
     width: 100%; /* Ensure the footer fits the screen width */
     text-align: center;
     padding: 1rem;
@@ -263,19 +263,26 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.footer-links a {
+#footer-a {
     color: #ffffff;
     text-decoration: none;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.footer-links a:hover {
-    background-color: rgb(8, 64, 22);
+#footer-a:hover {
+    background-color: rgb(75, 165, 195);
     padding: 5px;
     /* color: rgb(75, 165, 195); */
     text-decoration: none;
 }
+.footer-contact a i {
+    font-size: 24px;
+    margin-right: 8px;
+    color: #25D366; /* WhatsApp's green color */
+}
 
+                /* .faq-section, .contact-section, .rating-section, .reviews-section */
 .faq-section, .contact-section, .rating-section, .reviews-section {
     background-color: #ffffff;
     padding: 20px;
