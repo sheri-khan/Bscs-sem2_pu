@@ -1,11 +1,11 @@
 // Import the Supabase JavaScript client from CDN
-const supabaseUrl = 'https://jbtnkaqzfknnycz rldtd.supabase.co';
+const supabaseUrl = 'https://jbtnkaqzfknnyczrldtd.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpidG5rYXF6ZmtubnljenJsZHRkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQ5MzA0NzAsImV4cCI6MjA0MDUwNjQ3MH0.A-emTwQ5qWSZyjYcGXi2aZxMOlAp1rYVPmAD6UrNogY';
 
-// Load the Supabase script and wait for it to load
+// Function to load the Supabase script dynamically
 function loadSupabaseScript(callback) {
   const script = document.createElement('script');
-  script.src = 'https://unpkg.com/@supabase/supabase-js@1.33.0/dist/supabase-js.umd.js';
+  script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.0.2/dist/supabase.min.js'; // Updated URL
   document.head.appendChild(script);
 
   function checkSupabaseLoaded() {
@@ -19,7 +19,7 @@ function loadSupabaseScript(callback) {
   checkSupabaseLoaded();
 }
 
-
+// Initialize Supabase and handle form submissions
 loadSupabaseScript(() => {
   const { createClient } = window.supabase;
   const supabase = createClient(supabaseUrl, supabaseKey);
