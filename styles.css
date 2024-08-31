@@ -229,7 +229,7 @@ label {
 
 input, textarea, select {
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 22px;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%; /* Ensure input elements fit the screen width */
@@ -302,6 +302,9 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%; /* Ensure sections fit the screen width */
+}
+.contact-section{
+    margin-bottom: 357px;
 }
 
 .review-item {
@@ -427,6 +430,7 @@ footer {
     input, textarea, select, button {
         font-size: 14px;
         padding: 8px;
+        
     }
 
     footer {
