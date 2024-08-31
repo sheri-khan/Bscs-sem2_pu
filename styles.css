@@ -64,7 +64,9 @@ header {
 
 .top-nav a:hover {
     transition: 0.5s;
-    background-color: rgb(75, 165, 195);
+    /* background-color: rgb(75, 165, 195); */
+    background-color: white;
+    color: black;
     border-radius: 10px;
 }
 /* past paper nav  */
@@ -280,7 +282,9 @@ footer {
 }
 
 #footer-a:hover {
-    background-color: rgb(75, 165, 195);
+    /* background-color: rgb(75, 165, 195); */
+    background-color: white;
+    color: black;
     padding: 5px;
     /* color: rgb(75, 165, 195); */
     text-decoration: none;
