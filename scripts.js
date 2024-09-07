@@ -1,4 +1,4 @@
-confirm("Are you a student of 2nd semester?")
+
 
 
 // Import the Supabase JavaScript client from CDN
