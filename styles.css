@@ -54,7 +54,7 @@ header {
    
 }
 
-.top-nav a {
+ .top-nav a {
     color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
@@ -62,14 +62,16 @@ header {
     
     
 }
-
 .top-nav a:hover {
     transition: 0.5s;
-    /* background-color: rgb(75, 165, 195); */
+    
     background-color: white;
     color: black;
     border-radius: 10px;
-}
+} 
+
+
+
 /* past paper nav  */
 #past-paper-nav{
     margin-top: 10px;
@@ -100,6 +102,7 @@ header {
 }
 
 .sidebar {
+   
     width: 250px;
     background-color: #343a40;
     color: #ffffff;
@@ -121,6 +124,7 @@ header {
     color: #ffffff;
     text-decoration: none;
     padding: 10px 0;
+    
 }
 
 .sidebar a:hover {
