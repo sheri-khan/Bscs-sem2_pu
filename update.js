@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Array of updates/messages
     const updates = [
-        "Updates are coming time to time as needed on this site",
-        "All the sources data notes are real and authenticated.",
-        "This site is under deploying so maybe everything is not avaiable .",
+        "---------Checkout English complete syllabus notes in english section------",
+        
+        
         "--------- Check out islamiyat new notes for paper preparation ---------- ."
     
     ];
